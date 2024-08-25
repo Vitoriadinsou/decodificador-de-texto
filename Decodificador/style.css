@@ -1,0 +1,123 @@
+.LogoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;;
+    margin-top: 50px;
+    text-transform: lowercase;
+    width: 600px;
+    height: 300px;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    text-transform: capitalize;
+}
+
+::placeholder {color: #0A3871;
+    font-family: 'Arial', sans-serif;
+    text-transform: capitalize;
+}
+
+.text-area:focus {
+        outline: none;
+}
+
+.mensagem {
+    background: white;
+    background-image: url("Imagens/imagem.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 250px;
+    height: 470px;
+}
+
+
+
+.mensagem:focus {
+    outline: none;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 250px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 250px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 412px;
+    position: absolute;
+    width: 250px;
+    display: none;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+}
+
+.hidden-background {
+    background-image: none;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  footer a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+}
